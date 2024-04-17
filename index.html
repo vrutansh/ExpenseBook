@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>Expense Book</title>
+</head>
+<body class="bg-[#F1F5F9]">
+    
+    <nav class="flex justify-between p-8 mx-[5vw]">
+        <div class="logo">
+            <img src="/Vector.png" alt="Logo">
+        </div>
+    
+        <div class="headings hidden sm:flex gap-14 px-6">
+            <h1 class="text-zinc-700 font-regular">Blogs</h1>
+            <h1 class="text-zinc-700 font-regular">Features</h1>
+            <h1 class="text-zinc-700 font-regular">Pricing</h1>
+            <h1 class="text-zinc-700 font-regular">Integrations</h1>
+            <button class="px-6 py-[6px] bg-blue-600 text-sm text-white rounded">Start Trial</button>
+        </div>
+    
+     
+        <div class="menu-toggle block sm:hidden">
+            <i class="ri-menu-fill"></i>
+        </div>
+    </nav>
+    <hr class="border-b-[1px] border-zinc-300">
+    
+    <style>
+        @media (max-width: 768px) {
+            .headings {
+                display: none; /* Hide headings on smaller screens */
+            }
+            .menu-toggle {
+                display: block; /* Show menu toggle on smaller screens */
+            }
+        }
+    </style>
+
+    <div class="homepage p-8 sm:p-14 mt-16 text-center">
+        <h2 class="text1 text-[1.5rem] sm:text-[3.5rem] tracking-tighter text-blue-500 leading-none mb-1">
+            The World's Most Configurable
+        </h2>
+    
+        <h1 class="text2 text-[2rem] sm:text-[4.9rem] tracking-tight leading-none text-zinc-700 mb-6">
+            Travel & Expense Management Software
+        </h1>
+    
+        <p class="para max-w-[41rem]  mx-auto text-[2.5vw] sm:text-lg text-zinc-700 mb-8">
+            Configure <span class="text-blue-500 border-b-2 border-blue-500">any</span> rule. Enable a world-class mobile experience for your users. Get seamless reporting & integrations. Inbuilt OCR expense scanning. Manage travel & non-travel expenses. Open APIs to connect with external systems.
+        </p>
+    
+        <div class="input flex flex-col sm:flex-row justify-center sm:justify-start gap-4 sm:gap-8 sm:ml-[25%] mt-[3%]">
+            <input class="input-field bg-[#F1F5F9] px-4 sm:px-8 py-3 border-solid border-[1px] rounded border-zinc-500 mb-4 sm:mb-0" type="text" placeholder="Name">
+            <input class="input-field bg-[#F1F5F9] px-6 sm:px-12 py-3 border-solid border-[1px] rounded border-zinc-500 mb-4 sm:mb-0" type="text" placeholder="Official email ID">
+            <button class="px-3 py-4 sm:px-4 sm:py-[6px] sm:text-sm bg-blue-600 text-sm  text-white rounded">Start Trial</button>
+        </div>
+        
+        <p class="para2 mt-3 text-[1rem] sm:text-[1.5rem] text-zinc-600 tracking-tighter">30 days Free trial <span class="px-1 sm:px-3 text-[2.5rem] inline-block">.</span> Up to 10 Users</p>
+    </div>
+
+    <div class="hotjar w-full sm:w-[72%] bg-white p-4 sm:p-12 mt-4 sm:mt-[7.7%] mx-auto rounded-xl border-zinc-300 border-solid border-2 border-zinc-100">
+        <h3 class="text-zinc-700 font-regular text-lg sm:text-2xl sm:ml-[33%] leading-none tracking-tight text-center sm:text-left mb-4">Used by Over 50 Entrepreneurs</h3>
+        <div class="images flex justify-center sm:justify-center gap-4 sm:gap-16 flex-wrap sm:flex-no-wrap overflow-x-auto sm:overflow-hidden">
+            <img class="mx-2  sm:mx-0" src="/Frame 484640.png" alt="">
+            <img class="mx-2  sm:mx-0" src="/Frame 484640.png" alt="">
+            <!-- <img class="mx-2  sm:mx-0 hidden sm:block lg:block" src="/Frame 484640.png" alt=""> -->
+            <img class="mx-2 sm:mx-0 hidden lg:block" src="/Frame 484640.png" alt="">
+            <img class="mx-2  sm:mx-0 hidden lg:block" src="/Frame 484640.png" alt="">
+            
+        </div>
+    </div>
+
+    <div class="features w-[77vw] sm:w-full h-[89vh] p-4 sm:p-2">
+      <h1 class=" ml-16 sm:mx-auto text-center text-[1.9rem] sm:text-[3.2rem] text-blue-500 leading-none font-semibold tracking-tighter mt-14">Features that suit your needs</h1>
+        <div class="container sm:flex flex-wrap shrink-0 px-6 sm:px-44 mb-14 gap-5 mt-20">
+
+            <div class="ft relative p-4 h-40 w-[23rem] flex gap-8">
+                <div class="ico h-10 w-10 bg-blue-600"><i class="ri-team-line mr-2 py-1 px-1 text-white text-3xl"></i></div>
+                 <h1 class="font-semibold text-xl text-zinc-700">Setup Employee Groups</h1>
+                <p class="absolute top-1/2 text-zinc-600">Use any parameter to setup distinct
+                    employee groups to implement policies</p>
+            </div>
+
+
+
+            <div class="ft relative  p-4  h-40 w-[23rem] flex gap-4">
+                <div class="ico h-10 w-10 bg-blue-600"> <i class="ri-check-double-line mr-2 py-1 px-1 text-white text-3xl"></i></div>
+                 <h1  class="font-semibold text-xl text-zinc-700">The Definitive Rule Engine</h1>
+                <p class="absolute top-1/2 text-zinc-600">Configure ANY policy - and if you can't configure it, we promise to work on it for <span class="font-bold">free</span></p>
+            </div>
+
+
+
+            <div class="ft relative  p-4  h-40 w-[23rem] flex gap-4">
+                <div class="ico h-10 w-10 bg-blue-600"><i class="ri-file-text-line mr-2 py-1 px-1 text-white text-3xl"></i></div>
+                 <h1  class="font-semibold text-xl text-zinc-700">Customized Reports</h1>
+                <p class="absolute top-1/2 text-zinc-600">Setup the reports that you want using our seamless reporting engine.</p>
+            </div>
+
+
+
+            <div class="ft relative  p-4  h-40 w-[23rem] flex gap-4">
+                <div class="ico h-10 w-10 bg-blue-600"><i class="ri-shield-star-line mr-2 py-1 px-1 text-white text-3xl"></i></div>
+                 <h1  class="font-semibold text-xl text-zinc-700">Superior Employee Experience</h1>
+                <p class="absolute top-1/2 text-zinc-600">Manage all expenses and travel requests easily. Empower your employees with personalized reports.</p>
+            </div>
+
+
+
+            <div class="ft relative  p-4  h-40 w-[23rem] flex gap-4">
+                <div class="ico h-10 w-10 bg-blue-600"> <i class="ri-command-line mr-2 py-1 px-1 text-white text-3xl"></i></div>
+                 <h1  class="font-semibold text-xl text-zinc-700">Easy Integrations</h1>
+                <p class="absolute top-1/2 text-zinc-600">Integrate with your upstream, HRMS or your downstream finance system to seamlessly deliver value through our Open APIs.</p>
+            </div>
+
+
+
+            <div class="ft relative  p-4  h-40 w-[23rem] flex gap-4">
+                <div class="ico h-10 w-10 bg-blue-600"> <i class="ri-settings-2-line mr-2 py-1 px-1 text-white text-3xl"></i></div>
+                 <h1  class="font-semibold text-xl text-zinc-700">Configurable Workflows</h1>
+                <p class="absolute top-1/2 text-zinc-600">Configure approvals or rejections. Escalations and reports. At will. Setup new groups.</p>
+            </div>
+
+
+
+            <div class="ft relative  p-4  h-40 w-[23rem] flex gap-4">
+                <div class="ico h-10 w-10 bg-blue-600"> <i class="ri-qr-scan-2-line mr-2 py-1 px-1 text-white text-3xl"></i></div>
+                 <h1 class="font-semibold text-xl text-zinc-700"h1>Scan any Bill</h1>
+                <p class="absolute top-1/2 text-zinc-600">The world's best OCR system backs up this product. All data goes in. 99% success.</p>
+            </div>
+            
+           
+            <div class="ft relative  p-4  h-40 w-[23rem] flex gap-4">
+                <div class="ico h-10 w-10 bg-blue-600"><i class="ri-openai-fill mr-2 py-1 px-1 text-white text-3xl"></i></div>
+                 <h1  class="font-semibold text-xl text-zinc-700">AI-Based Concierge <span class="text-[13px] ml-1 text-orange-700 rounded px-1 py-1 bg-orange-200 ">Coming Soon</span></h1>
+                <p class="absolute top-1/2 text-zinc-600">Ask the concierge to change things during your travel - and it will trigger relevant actions 24x7.</p>
+            </div>
+
+
+
+            <div class="ft relative  p-4  h-40 w-[23rem] flex gap-1">
+                <div class="ico h-10 w-10 bg-blue-600"><i class="ri-suitcase-line mr-2 py-1 px-1 text-white text-3xl"></i></div>
+                 <h1  class="font-semibold text-[18px] inline-block text-zinc-700">AI-Assisted Trip Planning <span class="text-[10px] ml-1 text-orange-700 rounded px-1 py-1 bg-orange-200 ">Coming Soon</span></h1>
+                <p class="absolute top-1/2 text-zinc-600">Just tell us what you want to do in normal language and we will try and put together the best itinerary for you.</p>
+            </div>
+
+            
+        </div>
+
+    </div>
+    
+    <div class="Integrations mt-[69rem] mx-auto text-center w-[85vw] sm:h-[80vh] sm:mt-14 sm:w-full ">
+        <h1 class="text-3xl font-semibold text-blue-500 tracking-tight leading-none mx-16 mb-12 sm:mt-32 sm:text-center
+        sm:text-[3.3rem]"> Integrations</h1>
+        <div class="int  sm:flex sm:mx-auto">
+            <div class="int1 h-[50vw] sm:h-[19vw] sm:w-[50vh] sm:mt-[6rem]  w-[45vh] rounded-xl mx-auto  border-2 border-solid border-orange-300 bg-orange-100"> 
+                <div class="icoo flex gap-8 p-4 relative">
+                    <div class="logo h-10 w-10 bg-orange-200"><i class="ri-team-line mr-2 py-1 px-1 text-orange-400 text-3xl"></i></div>
+                    <h1 class="text-xl sm:text-2xl text-zinc-700 font-semibold">HRMS Systems</h1>
+                    <p class="absolute -bottom-[190%] px-4 sm:text-[17px] text-zinc-700">We can integrate with any HRMS as long as the employee master can be made available to us over SFTP/API.
+
+                        We are already deeply integrated with PeopleStrong and others are coming up.</p>
+                </div>
+            </div>
+            <div class="int2 h-[50vw] sm:h-[19vw] sm:w-[50vh] sm:mt-[6rem] w-[45vh] rounded-xl mx-auto mt-14  border-2 border-solid border-green-300 bg-green-100">
+                <div class="icoo flex gap-8 p-4 relative">
+                    <div class="logo h-10 w-10 bg-green-600"><i class="ri-line-chart-line mr-2 py-1 px-1 text-slate-200 text-3xl"></i></div>
+                    <h1 class="text-xl sm:text-2xl text-zinc-700 font-semibold">Finance Systems</h1>
+                    <p class="absolute -bottom-[190%] px-4 sm:text-[17px] text-zinc-700 ">We can integrate with any HRMS as long as the employee master can be made available to us over SFTP/API.
+
+                        We are already deeply integrated with PeopleStrong and others are coming up.</p>
+                </div>
+            </div>
+            <div class="int3 h-[50vw] sm:h-[19vw] sm:w-[50vh] sm:mt-[6rem] w-[45vh] rounded-xl mx-auto mt-14  border-2 border-solid border-blue-300 bg-blue-100">
+                <div class="icoo flex gap-8 p-4 relative">
+                    <div class="logo h-10 w-10 bg-sky-500"> <i class="ri-shield-star-line mr-2 py-1 px-1 text-white text-3xl"></i></div>
+                    <h1 class="text-xl sm:text-2xl text-zinc-700 font-semibold">Single Sign-on Systems</h1>
+                    <p class="absolute -bottom-[190%] px-4 sm:text-[17px] text-zinc-700">We can integrate with any HRMS as long as the employee master can be made available to us over SFTP/API.
+
+                        We are already deeply integrated with PeopleStrong and others are coming up.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews hidden sm:block mt-[12rem] mx-auto text-center w-[85vw] sm:h-[80vh] sm:mt-8 sm:w-full ">
+        <h1 class="text-3xl font-semibold text-blue-500 tracking-tight leading-none mx-16 mb-12 sm:mt-32 sm:text-center
+        sm:text-[3.3rem]"> Our Customers Love Us</h1>
+        <div class="int  sm:flex sm:mx-auto">
+            <div class="int1 h-[50vw] sm:h-[19vw] sm:w-[50vh] sm:mt-[6rem]  w-[45vh] rounded-xl mx-auto  border-2 border-solid border-gray-400 bg-gray-200"> 
+                <div class="icoo flex gap-8 p-4 relative">
+                    <div class="logo h-12 w-12 "><img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D" class="h-full w-full object-cover overflow-hidden rounded-full" alt=""></div>
+
+                    <h1 class="text-xl sm:text-2xl text-zinc-700 font-semibold">Rohit Mehra <span class="text-sm text-slate-500">CFO, XYZ</span></h1>
+                    <p class="absolute -bottom-[190%] px-4 sm:text-[17px] text-zinc-700">ExpenseBook has truly streamlined our travel setup. No more emails and delays in booking. No mor unknown overruns in expense. Everything is trackable, and the configurability they offer is outstanding.</p>
+                </div>
+            </div>
+            <div class="int2 h-[50vw] sm:h-[19vw] sm:w-[50vh] sm:mt-[6rem] w-[45vh] rounded-xl mx-auto mt-14  border-2 border-solid border-green-300 bg-green-100">
+                <div class="icoo flex gap-8 p-4 relative">
+                    <div class="logo h-12 w-12 "><img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D" class="h-full w-full object-cover overflow-hidden rounded-full" alt=""></div>
+                    <h1 class="text-xl sm:text-2xl text-zinc-700 font-semibold">Mark Jacob <span class="text-sm text-slate-500">CEO, XYZ</span></h1>
+                    <p class="absolute -bottom-[190%] px-4 sm:text-[17px] text-zinc-700 ">ExpenseBook has truly streamlined our travel setup. No more emails and delays in booking. No mor unknown overruns in expense. Everything is trackable, and the configurability they offer is outstanding.</p>
+                </div>
+            </div>
+            <div class="int3 h-[50vw] sm:h-[19vw] sm:w-[50vh] sm:mt-[6rem] w-[45vh] rounded-xl mx-auto mt-14  border-2 border-solid border-blue-300 bg-gray-200">
+                <div class="icoo flex gap-8 p-4 relative">
+                    <div class="logo h-12 w-12 "><img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D" class="h-full w-full object-cover overflow-hidden rounded-full" alt=""></div>
+                    <h1 class="text-xl sm:text-2xl text-zinc-700 font-semibold">Alex Turing <span class="text-sm text-slate-500">CMO, XYZ</span></h1>
+                    <p class="absolute -bottom-[190%] px-4 sm:text-[17px] text-zinc-700">ExpenseBook has truly streamlined our travel setup. No more emails and delays in booking. No mor unknown overruns in expense. Everything is trackable, and the configurability they offer is outstanding.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" hidden sm:block w-full h-[36vh] bg-blue-100">
+        <h1 class="text-4xl leading-none tracking-tight text-center py-6 text-blue-500 font-semibold">Manage your travel and expenses the smart way !</h1>
+        <div class="input flex flex-col sm:flex-row  justify-center sm:justify-start gap-4 sm:gap-8 sm:ml-[25%] mt-[3%]">
+            <input class="input-field bg-[#F1F5F9] px-4 sm:px-8 py-3 border-solid border-[1px] rounded border-zinc-500 mb-4 sm:mb-0" type="text" placeholder="Name">
+            <input class="input-field bg-[#F1F5F9] px-6 sm:px-12 py-3 border-solid border-[1px] rounded border-zinc-500 mb-4 sm:mb-0" type="text" placeholder="Official email ID">
+            <button class="px-3 py-4 sm:px-4 sm:py-[6px] sm:text-sm bg-blue-600 text-sm  text-white rounded">Start Trial</button>
+        </div>
+        
+        <p class="para2 mt-3 text-center  text-[1rem] sm:text-[1.5rem] text-zinc-600 tracking-tighter">30 days Free trial <span class="px-1 sm:px-3 text-[2.5rem] inline-block">.</span> Up to 10 Users</p>
+    </div>
+    
+    <div class="footer w-[80vw] h-[60vh] mx-auto mt-12 p-12">
+         <div class="footerlogo">
+            <img class="w-32 h-8" src="/Vector.png" alt="">
+         </div>
+         <div class="addr md:ml-[40vw]">
+            <div class="location my-8 flex gap-2">
+                <i class="ri-map-pin-2-fill text-blue-600 text-2xl"></i>
+                <h1 class="text-2xl text-zinc-600">Address</h1>
+            </div>
+            <div class="phone flex gap-4">
+                <i class="ri-phone-fill text-blue-600 text-2xl"></i>
+                <h1 class="text-2xl text-zinc-600">+123456789</h1>
+            </div>
+         </div>
+         <div class="media md:ml-[40vw] mt-6 flex gap-4">
+            <h1 class="text-zinc-600">social media</h1>
+            <i class="ri-instagram-line text-blue-600 text-2xl"></i>
+            <i class="ri-twitter-fill text-blue-600 text-2xl"></i>
+            <i class="ri-youtube-fill text-blue-600 text-2xl"></i>
+         </div>
+
+         <hr class="border-[1px] border-solid border-zinc-200 my-6">
+
+         <div class="footernav flex md:gap-20 gap-8">
+            <h1 class="font-semibold text-md text-zinc-500">Blogs</h1>
+            <h1 class="font-semibold text-md text-zinc-500">Features</h1>
+            <h1 class="font-semibold text-md text-zinc-500">Pricing</h1>
+            <h1 class="font-semibold text-md text-zinc-500">Integrations</h1>
+         </div>
+    </div>
+    
+    
+</body>
+</html>
